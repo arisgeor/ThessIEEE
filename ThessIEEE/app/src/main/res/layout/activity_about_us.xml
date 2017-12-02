@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <!-- Yellow with black is used to show emphasis!
+    The blue white alteration is meant to represent the greek flag while
+    the orange at the end indicates the fun and playfulness in the events!-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/classic_item"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="12dp"
+            android:text="@string/what_is_IEEE_1"
+            android:textColor="@color/primary_dark_color"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="12dp"
+            android:text="@string/what_is_IEEE_2"
+            android:textColor="#000000"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="12dp"
+            android:text="@string/purpose_1"
+            android:textColor="@color/primary_dark_color"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="12dp"
+            android:text="@string/purpose_2"
+            android:textColor="#000000"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="12dp"
+            android:text="@string/membership_1"
+            android:textColor="@color/primary_dark_color"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="12dp"
+            android:text="@string/membership_2"
+            android:textColor="#000000"
+            android:textSize="12dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

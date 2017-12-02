@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="classic_item">#FFFFFF</color>
+    <color name="primary_color">#1976D2</color>
+    <color name="primary_dark_color">#0D47A1</color>
+    <color name="background">#BBDEFB</color>
+    <!--inside the listviews -->
+    <color name="category_pointsOfInterest">#FFFF00</color>
+    <color name="category_museums">#0D47A1</color>
+    <color name="category_museums_list">#64B5F6</color>
+    <color name="category_hotels">#FFFFFF</color>
+    <color name="category_restaurants">#0D47A1</color>
+    <color name="red">#F44336</color>
+
+</resources>

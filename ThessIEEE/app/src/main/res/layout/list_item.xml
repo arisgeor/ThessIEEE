@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- First we give the Greek pronunciation in the English Alphabet and then
+ the translation in English that way a tourist for example, knows exactly
+ how to ask a local for the specific site, while also understanding what
+ he/she sees We also provide a small image of the site, etc. When the user
+ clicks he/she can see and learn more.-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/classic_item"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:contentDescription="@string/description" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/primary_dark_color"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            tools:text="Theodora Kokkinou" />
+        <!-- We use tools:text as a placeholder!
+        that means that "Lefkos Pirgos" here is just an example-->
+
+        <TextView
+            android:id="@+id/ability_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/primary_dark_color"
+            android:textAlignment="center"
+            tools:text="Chairwoman" />
+        <!-- We use tools:text as a placeholder (meaning that the context here will have this format (here string))!-->
+    </LinearLayout>
+</LinearLayout>
+

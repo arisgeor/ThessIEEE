@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <!-- Yellow with black is used to show emphasis!
+    The blue white alteration is meant to represent the greek flag while
+    the orange at the end indicates the fun and playfulness in the events!-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/classic_item"
+        android:orientation="vertical"
+        tools:context="com.example.android.miwok.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ieeewall" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/classic_item">
+
+            <TextView
+                android:id="@+id/about_us"
+                style="@style/ClassicStyle"
+                android:background="@color/classic_item"
+                android:text="About us! "
+                android:textAlignment="center"
+                android:textColor="@color/primary_dark_color" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/classic_item">
+
+            <TextView
+                android:id="@+id/events"
+                style="@style/ClassicStyle"
+                android:background="@color/classic_item"
+                android:text="Events"
+                android:textAlignment="center"
+                android:textColor="@color/primary_dark_color" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/classic_item">
+
+            <TextView
+                android:id="@+id/members"
+                style="@style/ClassicStyle"
+                android:background="@color/classic_item"
+                android:text="Members"
+                android:textAlignment="center"
+                android:textColor="@color/primary_dark_color" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/contact_us"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@color/primary_dark_color"
+                android:onClick="submitOrder"
+                android:text="Contact us!"
+                android:textColor="@color/classic_item" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+</ScrollView>

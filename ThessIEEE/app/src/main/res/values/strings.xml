@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">Thess IEEE?</string>
+
+    <!--Description-->
+    <string name="description">An image that shows this particular member of this branch</string>
+    <string name="what_is_IEEE_1">What is IEEE?</string>
+    <string name="what_is_IEEE_2">IEEE is the world’s largest professional association dedicated to
+        advancing technological innovation and excellence for the benefit of humanity. IEEE and
+        its members inspire a global community through IEEE’s highly cited publications, conferences,
+        technology standards, and professional and educational activities. IEEE, pronounced
+        “Eye-triple-E”, stands for the Institute of Electrical and Electronics Engineers.
+        The association is chartered under this name and it is the full legal name.</string>
+
+    <string name="purpose_1">What is the purpose of IEEE?</string>
+    <string name="purpose_2">IEEE’s core purpose is to foster technological innovation and excellence
+        for the benefit of humanity. IEEE will be essential to the global technical community and to
+        technical professionals everywhere, and be universally recognized for the contributions of
+        technology and of technical professionals in improving global conditions. The IEEE is engaged
+        in an enterprise-wide strategic planning process. The IEEE Strategic Plan is a vital part of
+        the ongoing evolution of IEEE. The Plan provides a clear picture of IEEE as an organization,
+        the goals our community is pursuing, and the initiatives that will move IEEE forward in the
+        coming years.</string>
+
+    <string name="membership_1">How can I become a member of IEEE?</string>
+    <string name="membership_2">If you want to join IEEE and gain all that benefits the membership
+        offers,such as the monthly IEEE Spectrum Magazine, you just have to visit www.ieee.org and
+        create your own account! We have created a guideline, to make your registration easier. So,
+        the only thing you have to do in order to enjoy the most rewarding IEEE experience is to
+        follow the steps described in here.</string>
+
+
+</resources>
