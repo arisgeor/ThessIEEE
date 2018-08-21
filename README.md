@@ -1,2 +1,2 @@
 # ThessIEEE
-an app
+An informational App,bout our IEEE branch
